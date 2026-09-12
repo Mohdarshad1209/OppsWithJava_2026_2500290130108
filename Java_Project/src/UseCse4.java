@@ -23,13 +23,11 @@ public class UseCse4 {
 
     static void withdraw(double balance, double amount)
             throws InsufficientBalanceException {
-
         if (amount > balance) {
             throw new InsufficientBalanceException(
                 "Insufficient balance. Withdrawal cannot be completed."
             );
         }
-
         System.out.println(
             "Withdrawal successful. New balance: " + (balance - amount)
         );
