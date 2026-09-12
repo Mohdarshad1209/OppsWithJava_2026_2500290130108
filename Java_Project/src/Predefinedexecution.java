@@ -1,6 +1,5 @@
 import java.io.FileReader;
 import java.util.*;
-
 public class Predefinedexecution {
     public  static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -21,8 +20,6 @@ public class Predefinedexecution {
         }
         catch(Exception e) {
             System.out.println("File not found");
-
-
             e.printStackTrace();
         }
         finally{
