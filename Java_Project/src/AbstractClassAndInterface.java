@@ -13,7 +13,6 @@ interface Camera {
         
     }
 }
-
 interface MusicPlayer {
     String TYPE="Digital";
     void playMusic();
